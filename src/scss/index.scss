@@ -1,0 +1,16 @@
+@import 'scss/_variables';
+@import 'scss/_mixins';
+
+:root {
+}
+
+html {
+    background: $background;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: $line-height;
+}

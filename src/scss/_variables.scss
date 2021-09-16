@@ -1,0 +1,29 @@
+$primary: #2D60B4 !default;
+$primary-variant: darken($primary, 10) !default;
+$primary-disabled: lighten($primary, 30) !default;
+$danger: #E42535 !default;
+$danger-variant: darken($danger, 10) !default;
+$danger-disabled: lighten($danger, 30) !default;
+$background: #FEFEFE !default;
+$background-variant: darken($background, 5) !default;
+$background-disabled: darken($background, 5) !default;
+
+$on-primary: #FFF !default;
+$on-primary-disabled: darken($on-primary, 5);
+$on-danger: $on-primary !default;
+$on-danger-disabled: darken($on-danger, 5);
+$on-background: #111 !default;
+$on-background-disabled: lighten($on-background, 30);
+
+
+$border-radius: 4px;
+
+$spacing-xxs: 4px;
+$spacing-xs: 8px;
+$spacing-s: 12px;
+$spacing-m: 16px;
+$spacing-l: 20px;
+$spacing-xl: 32px;
+$spacing-xxl: 40px;
+
+$line-height: $spacing-l;
